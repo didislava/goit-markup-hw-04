@@ -372,6 +372,7 @@ h6 {
     display: flex;
     flex-wrap: wrap;
     gap: 48px 24px;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-item {
@@ -385,7 +386,7 @@ h6 {
 }
 
 .portfolio-image {
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-subtitle {
@@ -394,20 +395,24 @@ h6 {
 
 .portfolio-overlay {
     position: absolute;
-    width: 100%;
-    height: 100%;
     top: 0;
     left: 0;
-    background-color: #4D5AE5;
-    padding: 40px 32px;
-    overflow: auto;
+    height: 100%;
+    width: 100%;
+    background-color: #4d5ae5;
     transform: translateY(100%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    font-weight: 400;
+}
+
+  .portfolio-overlay-text {
+    position: absolute;
+    top: 0;
     font-size: 16px;
-    line-height: 150%;
+    line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #f4f4fd;
+    padding: 40px 32px;
+    height: 100%;
+    width: 100%;
 }
 
 .portfolio-img-wraper {
