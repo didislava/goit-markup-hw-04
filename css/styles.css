@@ -78,6 +78,9 @@ h6 {
 .header-menu-list{
     display: flex;
     gap: 40px;
+}
+
+.header-menu-item {
     color: #404bbf;
 }
 
@@ -110,12 +113,11 @@ h6 {
     margin-top: 20px;
     background: #404bbf;
     border-radius: 2px;
-    width: 0px;
     height: 4px;
 }
 
 .header-menu-link:hover::after{
-    width: 100%;
+    width: 100%;    
     bottom: -1px; 
 
 }
