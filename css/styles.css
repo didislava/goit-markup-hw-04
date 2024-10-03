@@ -106,10 +106,6 @@ h6 {
 }
 
 .header-menu-link::after{
-
-}
-
-.header-menu-link:hover::after{
     content: "";
     display: block;
     position: absolute;
@@ -119,6 +115,10 @@ h6 {
     height: 4px;
     width: 100%;    
     bottom: -1px;
+}
+
+.header-menu-link:hover::after{
+
 }
 
 .header-menu-link:hover,
