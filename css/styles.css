@@ -117,9 +117,6 @@ h6 {
     bottom: -1px;
 }
 
-.header-menu-link:hover::after{
-
-}
 
 .header-menu-link:hover,
 .header-menu-link:focus {
@@ -443,13 +440,15 @@ h6 {
 }
 
 .footer {
-    display: flex;
     background-color: #2e2f42;
     padding: 100px 0;
 }
 
 .footer-container {
     padding-left: 156px;
+    display: flex;
+    align-items: baseline;
+    margin-right: 120px;
 }
 
 .logo-footer {
@@ -474,9 +473,10 @@ h6 {
     display: flex;
     font-weight: 500;
     font-size: 16px;
-    line-height: 150%;
+    line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #fff;
+    color: #FFFFFF;
+    margin-bottom: 16px;
 }
 
 .footer-social-list {
