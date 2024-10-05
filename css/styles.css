@@ -78,6 +78,7 @@ h6 {
 .header-menu-list{
     display: flex;
     gap: 40px;
+    color:#2e2f42;
 }
 
 .header-menu-item {
@@ -118,7 +119,7 @@ h6 {
 }
 
 .header-menu-link.current {
-    color: #2e2f42;
+    color: #404bbf;
 }
 
 
