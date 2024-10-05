@@ -100,7 +100,7 @@ h6 {
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: #404bbf;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
@@ -108,12 +108,13 @@ h6 {
 .header-menu-link.current::after {
     content: "";
     position: absolute;
-    bottom: 0;
+    bottom: -1px;
     left: 0;
     height: 4px;
     background-color: #404bbf;
     width: 100%;
     border-radius: 2px;
+
 }
 
 .header-menu-link.current {
@@ -151,12 +152,13 @@ h6 {
     padding: 188px 0;
     background-repeat: no-repeat;
     background-position: center;
+    max-width: 1440px;
     width: 100%;
     height: 100%;
+    margin: 0 auto;
 }
 
 .hero-container {
-    max-width: 1440px;
 }
 
 
@@ -205,7 +207,6 @@ h6 {
 .features-list {
     display: flex;
     gap: 24px;
-    padding: 120px 156px;
 }
 
 .features-items {
